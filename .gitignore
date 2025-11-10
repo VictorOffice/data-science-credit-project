@@ -1,13 +1,21 @@
-# Python
+# OS / editor
+.DS_Store
+*.swp
+
+# Python / Jupyter
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.ipynb_checkpoints
-.venv/
+.ipynb_checkpoints/
 .env
-# Data/Artifacts
-data/*
-*.joblib
-# OS
-.DS_Store
+.venv
+
+# Datos y artefactos
+data/*.csv
+data/*.parquet
+data/*.xlsx
+models/*.joblib
+reports/*.html
+reports/*.pdf
+
+# Otros
+*.log
